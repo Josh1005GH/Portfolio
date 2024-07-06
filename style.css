@@ -376,8 +376,28 @@ article .icon {
 .project-title {
   margin: 1rem;
   color: black;
+  font-size: 1rem;
 }
-
+.experience-details span{
+  display: block;
+}
+.experience-details p{
+  text-align: left;
+  font-weight: bold;
+}
+.project-details li{
+  list-style:none;
+  /* font-size: 0.9rem; */
+  text-align: left;
+}
+.project-achievements li{
+  list-style: none;
+  text-align: left;
+}
+.project-achievements p{
+  text-align: left;
+  font-weight: bold;
+}
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
