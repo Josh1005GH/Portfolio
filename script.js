@@ -5,3 +5,8 @@ function toggleMenu() {
   icon.classList.toggle("open");
 }
 
+
+
+function article(){
+  const art = document.getElementById("article")
+}

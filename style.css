@@ -150,7 +150,7 @@ a:hover {
 
 section {
   padding-top: 2vh;
-  height: 70vh;
+  height: 90vh;
   /* height: auto; */
   margin: 0 10rem;
   box-sizing: border-box;
@@ -263,6 +263,7 @@ section {
 
 #about {
   position: relative;
+  height:60vh;
 }
 
 .about-containers {
@@ -316,6 +317,8 @@ section {
 
 #experience {
   position: relative;
+  /* height: 70vh;
+  margin-bottom: 5rem; */
 }
 
 .experience-sub-title {
@@ -404,7 +407,7 @@ font-size: 1rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 50vh;
+  /* height: 50vh; */
 }
 
 .contact-info-upper-container {

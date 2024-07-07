@@ -1,7 +1,7 @@
 @media screen and (max-width: 1400px) {
-  #profile {
-    height: 83vh;
-    margin-bottom: 6rem;
+  #profile, #about {
+    height: 70vh;
+    margin-bottom: 3rem;
   }
   .about-containers {
     flex-wrap: wrap;
@@ -10,6 +10,9 @@
   #projects {
     height: fit-content;
   }
+  /* #experience {
+    margin-top: 2rem;
+  } */
 }
 
 @media screen and (max-width: 1200px) {
@@ -19,9 +22,12 @@
   #hamburger-nav {
     display: flex;
   }
+  #about{
+    height: 50vh;
+  }
   #experience,
   .experience-details-container {
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
   #profile,
   .section-container {
@@ -53,11 +59,12 @@
     height: 40vh;
   }
   #profile {
-    height: 83vh;
+    height: 70vh;
     margin-bottom: 0;
   }
   article {
-    font-size: 1rem;
+    font-size: 0.8rem;
+   justify-content: left;
   }
   footer nav {
     height: fit-content;
